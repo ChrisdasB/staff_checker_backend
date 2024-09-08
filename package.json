@@ -1,0 +1,22 @@
+{
+  "name": "staff_checker",
+  "version": "1.0.0",
+  "description": "A personal project to show and learn more skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisdasB/staff_checker_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisdasB/staff_checker_backend/issues"
+  },
+  "homepage": "https://github.com/ChrisdasB/staff_checker_backend#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
