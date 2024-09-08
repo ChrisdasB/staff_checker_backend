@@ -1,18 +1,16 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
 
 app.use(express.json());
+app.use(cors());
 
 // Set a port number
 const PORT = process.env.PORT || 3000;
 
 // A simple route to test the server
 app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
-
-router.get("/:id", (req, res) => {
-  res.send(`User with ID: ${req.params.id}`);
+  res.json({ message: "Hello World!" });
 });
 
 app.post("/api/data", (req, res) => {
