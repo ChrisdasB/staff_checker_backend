@@ -15,5 +15,8 @@
     "url": "https://github.com/ChrisdasB/staff_checker_backend/issues"
   },
   "homepage": "https://github.com/ChrisdasB/staff_checker_backend#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
